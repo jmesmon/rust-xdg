@@ -1,6 +1,6 @@
-#![feature(collections, path, core, io, os)]
+#![feature(collections, old_path, core, old_io, os)]
 
-use std::path::BytesContainer;
+use std::old_path::BytesContainer;
 use std::old_io as io;
 use std::old_io::fs::PathExtensions;
 
